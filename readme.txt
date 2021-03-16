@@ -25,7 +25,7 @@ Opção 2 = ValoraVideo, acessa a url aonde o vídeo está hospedado, informa na
 "InicioVideo.png" e "FinalVideo.png", caso não encontre o vídeo é informado na tela e cria a evidência "ERRO - Video.png"; caso queira executar esse teste separadamente, execute o arquivo "ValoraVideo.py".
 
 Opção 3 = ValoraEmail
-caso queira executar esse teste separadamente, execute o arquivo "ValoraEmail.py".!!!
+caso queira executar esse teste separadamente, execute o arquivo "ValoraEmail.py".
 
 Opção 4 = ValoraNetwork
 caso queira executar esse teste separadamente, execute o arquivo "ValoraNetwork.py".
