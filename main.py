@@ -7,16 +7,14 @@ while reiniciar != '2': #Estrutura de repetição
 
     if menu == '1':
         from ValoraTempoBuffer import *
-        
     elif menu == '2':
         from ValoraVideo import *
-
     elif menu == '3':
         from ValoraEmail import *
-
     elif menu == '4':
         from ValoraNetwork import *
-
+    else:
+        print('\nOpção inválida')
     #Reiniciar ou finalizar
     reini = 0 #Variável
     while reini != 2: #Estrutura de repetição
