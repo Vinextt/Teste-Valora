@@ -1,5 +1,4 @@
-
-Configurando o ambiente:
+Configurando o ambiente para Python e Selenium:
 
 Realizar o download do Chrome Web Driver atualizado: (O Chrome da máquina precisa estar atualizado também:)
 https://chromedriver.chromium.org/downloads
@@ -18,14 +17,20 @@ pip install requests
 
 Após a instalação das extenções, execute o arquivo "main.py";
 
-Opção 1 = ValoraTempoBuffer, verifica se o site da valora.cc carrega em menos de 1.5s e informa na tela se a validação foi feita de acordo com o tempo previsto.
+Opção 1 = ValoraTempoBuffer; Verifica se o site da valora.cc carrega em menos de 1.5s e informa na tela se a validação foi feita de acordo com o tempo previsto.
 caso queira executar esse teste separadamente, execute o arquivo "ValoraTempoBuffer.py".
 
-Opção 2 = ValoraVideo, acessa a url aonde o vídeo está hospedado, informa na tela que o foi carregado corretamente e cria duas evidências 
+Opção 2 = ValoraVideo; Acessa a url aonde o vídeo está hospedado, informa na tela que o foi carregado corretamente e cria duas evidências 
 "InicioVideo.png" e "FinalVideo.png", caso não encontre o vídeo é informado na tela e cria a evidência "ERRO - Video.png"; caso queira executar esse teste separadamente, execute o arquivo "ValoraVideo.py".
 
-Opção 3 = ValoraEmail
+Opção 3 = ValoraEmail; Acessa o formulário e preenche as informações, aguarda o retorno em tela para validar se o e-mail foi enviado, em caso de sucesso é criado a evidência "EmailEnviado.png" caso o contrário 
+é criada a evidência "ERRO - Email";
 caso queira executar esse teste separadamente, execute o arquivo "ValoraEmail.py".
 
-Opção 4 = ValoraNetwork
+Opção 4 = ValoraNetwork; Verifica os requests realizado na página na da Valora e em caso de sucesso é informado na tela que o status é 200 OK e em caso de erro é informado que não foi possível validar e cria
+a evidência "ERRO - Network"
 caso queira executar esse teste separadamente, execute o arquivo "ValoraNetwork.py".
+
+----------------------------------------------------------------------------------------------------------
+
+Postman
