@@ -33,4 +33,14 @@ caso queira executar esse teste separadamente, execute o arquivo "ValoraNetwork.
 
 ----------------------------------------------------------------------------------------------------------
 
-Postman
+Postman:
+
+Abra o Postman > File > Import > File > Selecione a collection "Teste Valora.postman_collection.json";
+
+[POST] Inserir: Insere um funcionário na base com as infos; Nome; Salário; Idade;
+
+[GET] Update: Realiza atualizações no cadastro com base no ID informado no endpoint. Ex: http://dummy.restapiexample.com/api/v1/update/COLOQUEAQUIID
+
+[GET] Consulta: Informa se o cadastro com base no ID informado no endpoint se está ativo. Ex: http://dummy.restapiexample.com/api/v1/employee/COLOQUEAQUIID
+
+[DELETE ]Delete: Remove o cadastro da base com base no ID informado no endponint. Ex: http://dummy.restapiexample.com/api/v1/delete/COLOQUEAQUIID
